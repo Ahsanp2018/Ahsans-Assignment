@@ -1,0 +1,168 @@
+  import java.util.Scanner;
+    
+    	// # 1)The current year and the year in which the employee joined the
+    	// organization are entered through the keyboard. If the number of years for
+    	// which the employee has
+    	// # served the organization is greater than 3 then a bonus of Rs. 2500/- is
+    	// given to the employee. If the years of service are not greater
+    	// # than 3, then the program should do nothing.
+   public class If_elsehw {
+//    	  	public static void main(String[] args) {
+//    	
+//    	   		System.out.print("enter an employee work for the company : ");
+//    	  		Scanner input = new Scanner(System.in);
+//        		int year = input.nextInt();
+//    	  		if (year >= 3)
+//    	  			System.out.println("employee will get 2500");
+//    	  		else 
+//       			System.out.println("employee willn't get bonous");
+//    	  	
+		
+    		
+		
+//    	public static void main(String[] args) {	
+//    		int year = 3;
+//    		if (year >=3) {
+//    			System.out.println("employee will get bonous 2500");
+//    		} else {
+//    			System.out.println("employee willn't get bonous");
+	   }
+
+
+
+import java.util.Scanner;
+//# 2) The marks obtained by a student in 5 different subjects are input
+//through the keyboard. The student gets a
+//# division as per the following rules: Percentage above or equal to 60 -
+//First division
+//# Percentage between 50 and 59 - Second division
+//# Percentage between 40 and 49 - Third division
+//# Percentage less than 40 - Fail
+//# Write a program to calculate the division obtained by the student
+
+public class ifelse_HW2 {
+
+//	public static void main(String[] args) {
+//		Scanner input = new Scanner(System.in);
+//		System.out.println("Enter english marsk");
+//		int eng = input.nextInt();
+//		int mat = input.nextInt();
+//		int phy = input.nextInt();
+//		int che = input.nextInt();
+//		int bio = input.nextInt();
+//		int Tot = (eng + mat + phy + che+ bio);
+//		int avg =( Tot / 5);
+//		System.out.print("student will get total :" + Tot );
+//		System.out.print("student gets avg :" + avg);
+//		if (avg >= 60) {
+//		System.out.println("First division");
+//		} else if (avg >= 50) {
+//		System.out.println("Second division");
+//		} else if (avg >= 40) {
+//		System.out.println("Third division");
+//		} else {
+//		
+//		 System.out.println("Fail");
+//		}
+//
+//	}
+}
+
+
+
+import java.util.Scanner;
+//# 3) A company insures its drivers in the following cases:
+//# If the driver is married.
+//# If the driver is unmarried, male & above 30 years of age.
+//# If the driver is unmarried, female & above 25 years of age.
+//# In all other cases the driver is not insured. If the marital status, sex
+//and age of the driver are the inputs, write a program to determine
+//# whether the driver is to be insured or not.
+
+public class driver_hw {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			Scanner input = new Scanner(System.in);
+			System.out.println("Enter marital status:");
+			String maritalstatus = input.next();
+			System.out.println("Status is :" + maritalstatus == "married" );
+			System.out.print("Enter sex :");
+			String sex = input.next();
+			System.out.print("Enter age :");
+			int age = input.nextInt();
+			if (maritalstatus.equals("Married")) {
+				System.out.println("you are insured");
+			} else if (sex.equals("male") && age > 30) {
+				System.out.println("insured");
+			} else if (sex.contentEquals("female") && age > 25) {
+				System.out.println("insured");
+			} else {
+				System.out.println("not insured");
+				
+				
+			}
+					
+	        
+			
+			
+	}
+
+}
+
+
+
+
+import java.util.Scanner;
+//# 4) If cost price and selling price of an item is input through the
+//keyboard, write a program to determine whether the seller has
+//# made profit or incurred loss. Also determine how much profit he made or
+//loss he incurred.
+
+public class profit_loss {
+    private static Scanner sc;
+	public static void main(String[] args) {
+		double  saleAmmount, unitprice, ammount;
+		sc = new Scanner (System.in);
+		 
+		System.out.print("enter the ammount of cost");
+		unitprice = sc.nextDouble();
+		System.out.print("enter the ammount of selling price");
+		saleAmmount = sc.nextDouble();
+		if (saleAmmount > unitprice) {
+		
+			ammount = saleAmmount-unitprice;
+			System.out.println("profit ammount = "+ ammount);
+		} else if (saleAmmount < unitprice) {
+		
+			ammount = unitprice-saleAmmount;
+			System.out.println("loss ammount = "+ ammount);
+		} else {
+			System.out.println("no loss no profit");
+		}
+
+	}
+
+
+
+// # 5) Any integer is input through the keyboard. Write a program to find out
+// whether it is an odd number or even number.
+
+public class odd_even {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     int a = 100;
+    // int a = 101;
+     if (a % 2 == 0) {
+    	 System.out.println("its even number");
+     }
+         System.out.println("Its odd number");
+     
+	}
+
+}
+
+
+
