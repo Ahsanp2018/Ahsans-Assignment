@@ -1,0 +1,40 @@
+
+public class loop_java {
+//	1) Write a program to find the factorial value of any number entered
+//through the keyboard.
+
+//	public static void main(String[] args) {
+//
+//		//We will find the factorial of this number
+//		int number = 5;
+//	    int fact = 1;
+//		for(int i = 1; i <= number; i++)
+//		{
+//			fact = fact * i;
+//		}
+//		System.out.println("Factorial of "+number+" is: "+fact);
+//	}
+//}
+
+	// # 2) Two numbers are entered through the keyboard. Write a program to find
+	// the value of one number raised to the power
+	// # of another.
+	
+//	public static void main(String[] args) {
+//		int no = 1;
+//		int num = 2;
+//		int raise =3;
+//		for (int i = 1; i <= raise; i++) {
+//			no = no*num;
+//		}
+//		System.out.println(no);
+//		
+//	}
+//				
+//	}
+	
+//	3) Write a program to enter the numbers till the user wants and
+//# at the end it should display the count of positive, negative and
+//# zeros entered.
+
+}

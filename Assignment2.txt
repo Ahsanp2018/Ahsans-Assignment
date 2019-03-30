@@ -1,0 +1,111 @@
+
+public class strings_java {
+	// 1)Write a Java program to get the character at the given index
+	// * within the String.
+
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		String str = "SELENIUM";
+//	    System.out.println("Index of S=" +str.indexOf("E")); 
+//		 }
+//
+//}
+//	2.Write a Java program to get the character (Unicode code
+//	point) at the given index within the String.
+	
+//	public static void main(String[] args) {
+//		String str1 = "SELENIUM";
+//		char result = str1.charAt(5);
+//		System.out.println(result); 
+//		
+//	}
+//}
+	
+//	3) Write a java program to count
+// a character of a String. 
+//	public static void main(String[] args) {
+//		 String str1 = "abcdef";
+//		System.out.println(str1.length()); 
+//	}
+//}
+	
+//	4)Write a java program to compare two strings
+// lexicographically. 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//	5) Write a Java program to concatenate a given string to
+// the end of another string. 
+//	public static void main(String[] args) {
+//		String str1 = "AHSAN";
+//	    String str2 = " Java";
+//		str1 = str1.concat(str2);
+//		System.out.println(str1);
+//	}
+//}
+	
+//	6) Write a Java program to test if a given string
+// contains the specified sequence of char values. 
+	
+	
+	
+	
+	
+	
+	
+	
+//	7) Write a java program to
+// get the length of a given string
+	
+//	public static void main(String[] args) {
+//		String str1 = "AHSAN";
+//	    String str2 = "Java";	
+//     System.out.println(str1.length());
+//     System.out.println(str2.length());
+//	}
+//}
+//	8)Write a Java program to convert all the
+// characters in a string to lowercase.
+//	9) Write a Java program to convert all
+// the characters in a string to uppercase 
+
+//	public static void main(String[] args) {
+//		String str1 = "selenium";
+//		String str2 = "SELEnium";
+//		String str3 = "SELENIUM";
+//		System.out.println(str1.toUpperCase());
+//		System.out.println(str2.toUpperCase());
+//		System.out.println(str3.toUpperCase());
+//		System.out.println(str1.toLowerCase()); 
+//		System.out.println(str2.toLowerCase()); 
+//		System.out.println(str3.toLowerCase()); 
+//	}
+//}
+
+//	10) Write a program to reverse a
+// string
+	public static void main(String[] args) {
+	 StringBuilder s1 = new StringBuilder("Ahsan");
+	 System.out.println(s1);
+	 s1.reverse();
+	 System.out.println("StringBuilder:" + s1);
+}
+}
+
+
+
+	
+	
+
+
+	
+
