@@ -1,0 +1,255 @@
+
+public class functions {
+
+//1)	Write a Java program to sum values of an array.
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//		sum (a);
+//	}
+//	
+//	public static void sum(int a1[]) {
+//		int sum = 0;
+//        for (int i = 0; i <a1.length; i++) {
+//		    sum = sum + a1[i];
+//		}
+//		System.out.println("The sum is : " + sum);
+//	}
+//
+//}
+
+
+
+//2)	Write a Java program to find min value of an integer array.
+//	public static void main(String[] args) {
+//	
+//		int a[] = { 23, 34, 13, 64, 72, 90, 10, 15, 9, 27 };
+//        min (a);
+//	}
+//	public static void min(int a1[]) {
+//		int min = a1[0]; 
+//
+//		for (int i = 1; i < a1.length; i++)  {
+//			if (a1[i] < min) 
+//		min = a1[i]; }
+//		System.out.println("min value  is : " + min);
+//		}
+//	}
+
+//3)Write a Java program to calculate the average value of array elements.
+	
+//	public static void main(String[] args) {   
+//		 
+//	       int a[] = {20, 30, 25, 35, 16, 60, 100};
+//	       //calculate sum of all array elements
+//	       sum(a);
+//	}
+//	public static void sum(int a1[]) {
+//	       int sum = 0;
+//	       for(int i=0; i < a1.length ; i++)
+//	        sum = sum + a1[i];
+//	       //calculate average value
+//	        double average = sum / a1.length;
+//	        System.out.println("Average value of the array elements is : " + average); 
+//	   }
+//	}
+	
+//4)	Write a Java program to test if an array contains a specific value.
+	
+//	  public static void main(String args[]){
+//	      int[] myArray = {55, 45, 69, 44};
+//	      num(myArray);
+//	  }
+//	  public static void num(int myArray1[]) {
+//	      int num = 55;
+//
+//	      for(int i = 0; i<myArray1.length; i++){
+//	         if(num == myArray1[i]){
+//	            System.out.println("Array contains the given element");
+//	         }
+//	      }
+//	  }
+
+	// 5) The current year and the year in which the employee joined the
+	// organization are entered through the keyboard. If the number of years for
+	// which the employee has
+	//  served the organization is greater than 3 then a bonus of Rs. 2500/- is
+	// given to the employee. If the years of service are not greater
+	//  than 3, then the program should do nothing.	
+
+//    public static void main(String[] args) {	
+//	int year =(3);
+//	bonous(year);
+//    }
+//    public static void bonous(int year1) {
+//    	int bonous = 3;
+//	if (bonous >=year1) {
+//		System.out.println("employee will get bonous 2500");
+//	} else {
+//		System.out.println("employee willn't get bonous");
+//}
+//
+//}
+
+
+
+//6) Write a program to find the factorial value of any number entered
+//through the keyboard.
+
+//   public static void main(String[] args) {
+//
+//	//We will find the factorial of this number
+//	int number = 5;
+//	fact(number);
+//}
+//   public static void fact(int number1) {
+//	int fact = 1;
+//	for(int i = 1; i <= number1; i++)
+//	{
+//		fact = fact * i;
+//	}
+//	System.out.println("Factorial of "+number1+" is: "+fact);
+//}
+//}
+
+
+
+//7)  Any year is input through the keyboard. Write a program to determine
+//whether the year is a leap year or not.
+// (Hint: Use the % (modulus) operator)
+
+
+//	public static void main(String[] args) {
+//	int a =2018;
+//	int b = 3;
+//	year(a , b);
+//	}
+//	public static void year(int a1 , int b1) {
+//	if (a1 % b1 == 2) {
+//	//if (a1 % b1 == 0){
+//		System.out.println("A is a leap year");
+//	} else {
+//	    System.out.println("A is not a leap year");
+//	}
+//
+//	}
+//}
+
+	//8)  Any integer is input through the keyboard. Write a program to find out
+	// whether it is an odd number or even number.
+//
+//		public static void main(String[] args) {
+//			// TODO Auto-generated method stub
+//	    // int a = 100;
+//	     int a = 101;
+//	     oddEven(a);
+//		}
+//		public static void oddEven(int a1) {
+//	     if (a1 % 2 == 0) {
+//	    	 System.out.println("its even number");
+//	     }
+//	         System.out.println("Its odd number");
+//	     
+//		}
+//
+//	}
+
+// 9) If the ages of Ram, Shyam and Ajay are input through the keyboard, write
+// a program to determine the youngest of the
+//  three.
+
+//    public static void main(String[] args) {
+//			// TODO Auto-generated method stub
+//	            int R = 30;
+//	    		int S = 25;
+//	    		int A = 22;
+//	    		age(R , S , A);
+//          }
+//        public static void age(int R1, int S1, int A1) {
+//	    		if((R1 <= S1) && (R1 <= A1)) {
+//	    			System.out.println(" Ram is the youngest of three");
+//	    		} else if ((S1 <= R1) && (S1 <= A1)) {
+//	    			System.out.println("Shyam is the youngest of three");
+//	    		} else if ((A1 <= R1) && (A1 <= S1)) {
+//	    			System.out.println("Ajay is the youngest of three");
+//	    		} else {
+//	    			System.out.println("No one is youngest");
+//	    			
+//	    		}
+//	    		
+//		}
+//
+//	}
+
+//	10) Write a java program to count
+//a character of a String. 
+//	public static void main(String[] args) {
+//		 String str1 = "abcdef";
+//		 character(str1);
+//	}
+//	public static void character(String str2) {
+//		str2 = "abcdef";
+//		System.out.println(str2.length()); 
+//	}
+//}
+
+
+
+//# 11) The marks obtained by a student in 5 different subjects are input
+//through the keyboard. The student gets a
+//# division as per the following rules: Percentage above or equal to 60 -
+//First division
+//# Percentage between 50 and 59 - Second division
+//# Percentage between 40 and 49 - Third division
+//# Percentage less than 40 - Fail
+//# Write a program to calculate the division obtained by the student
+
+//	public static void main(String[] args) {
+//		
+//		int eng = 60;
+//		int mat = 70;
+//		int phy = 50;
+//		int che = 65;
+//		int bio = 80;
+//		division(eng, mat, phy, che, bio);
+//	}
+//	public static void division(int eng1, int mat1, int phy1, int che1, int bio1) {
+//		int Tot = (eng1 + mat1 + phy1 + che1+ bio1);
+//		int avg =( Tot / 5);
+//		System.out.print("student will get total :" + Tot );
+//		System.out.print("student gets avg :" + avg );
+//		if (avg >= 60) {
+//		System.out.println("First division");
+//		} else if (avg >= 50) {
+//		System.out.println("Second division");
+//		} else if (avg >= 40) {
+//		System.out.println("Third division");
+//		} else {
+//		
+//		 System.out.println("Fail");
+//		}
+//	}
+//}
+
+
+//# 12) Two numbers are entered through the keyboard. Write a program to find
+	// the value of one number raised to the power
+	// # of another.
+	
+//	public static void main(String[] args) {
+//		int no = 1;
+//		int num = 2;
+//		int raise =3;
+//		value(no, num, raise);
+//	}
+//	public static void value(int no1, int num1,int raise1) {
+//		for (int i = 1; i <= raise1; i++) {
+//			no1 = no1*num1;
+//		}
+//		System.out.println(no1);
+//		
+//	}
+//				
+//	}
+
+}
